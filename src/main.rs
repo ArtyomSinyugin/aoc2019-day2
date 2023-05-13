@@ -1,7 +1,7 @@
 use std::
         {fs::File, io::Read};
 use day2::calculate;
-
+  
 fn main() {
     let mut integers = String::new();
     let _f = File::open("input.txt")
